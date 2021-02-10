@@ -29,7 +29,7 @@ For this problems i preformed different experiments and used different algorithm
 **Experiment 1:** 
 [notebook](https://github.com/saikumarkella/Quora_insincere_classification/blob/main/qiq-classification-logistic-regression.ipynb)
 
-**Data Preparations :**
+*Data Preparations :*
 
                 - Removing Staopwords
                 - Removing puncutations
@@ -37,7 +37,7 @@ For this problems i preformed different experiments and used different algorithm
                 - Removing some special characters
                 - Converting upper case to lowercase
           
-**Statistical Features :**
+*Statistical Features :*
 
                 - Number of characters before preprocessing
                 - Number of characters after preprocessing
@@ -48,7 +48,7 @@ For this problems i preformed different experiments and used different algorithm
          
 **using Holdout method for the model selection in a stratify way**
 
-**Modelling and Results:**
+*Modelling and Results:*
 
 | data | Model | F1_score |
 |---|---|---|
@@ -61,7 +61,7 @@ For this problems i preformed different experiments and used different algorithm
 #### Experiment 2 (Deep Learning models):
 [notebook 2](https://github.com/saikumarkella/Quora_insincere_classification/blob/main/qiq-pretrained-embeddings-mlp-cnn.ipynb)
 
-**Data Preparation :**
+*Data Preparation :*
 
            - Using a Pretrained Embeddings for gettiing feature vector for each word . it preserve the semantic between the words.
            - Preprocessing techniques are done according to the Pretrained Embedding (Google News Embeedings ) like here not removed stopwords and didn;t change the cases
@@ -69,7 +69,7 @@ For this problems i preformed different experiments and used different algorithm
            
  **In this experiment didn't used any statistical Features**
  
-**Modelling :**
+*Modelling :*
 
 | data | Model | F1_score |
 |---|---|---|
@@ -81,13 +81,13 @@ For this problems i preformed different experiments and used different algorithm
 [notebook 3](https://github.com/saikumarkella/Quora_insincere_classification/blob/main/quora-insincere-questions-classification-lstm.ipynb)
 
 
-**Data Preparations :**
+*Data Preparations :*
 
             - Using a pretrained ebeddings . Preproceesed the data according to this by anlyzing the out of vocabulary .
             
  **No statistical Features used here**
  
-**Modelling :**
+*Modelling :*
 
 | data | Model | F1_score |
 |---|---|---|
